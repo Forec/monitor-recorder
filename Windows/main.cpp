@@ -106,5 +106,6 @@ void help(){
 		<< "            x unnormal frames passed.                                       \n"
 		<< "   [OUTPUTFILE]                                                             \n"
 		<< "          : assign the output recording file. It must be .avi format.       \n"
+		<< "                                                   designed by Forec        \n"
 		<< "----------------------------------------------------------------------------\n";
 }
