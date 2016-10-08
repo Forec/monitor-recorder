@@ -59,7 +59,7 @@ Usage:
 
 ## Example
 * An screenshot for the command `MonitorRecorder -vis -mog2 24 10 test.avi`.   
-<img src="http://7xktmz.com1.z0.glb.clouddn.com/monitor-recorder.png" width = 400/>
+<img src="http://7xktmz.com1.z0.glb.clouddn.com/monitor-show-1.png" width = 400/>
 
 ## Update-logs
 * 2016-10-05: Add this project.
