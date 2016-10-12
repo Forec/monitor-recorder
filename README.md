@@ -11,7 +11,7 @@
  * Add all files under `<OPENCV_PATH>\build\x64\vc12\lib` to your link inputs. That could be found in `LINK` -> `INPUT`. You can also separate the files into two parts by whether having suffix `d`, and add those files with suffix `d` into your `DEBUG` mode, add others into `RELEASE` mode.
 
 ### Linux
-* You need to install `OpenCV` and other packages based. Follow this link [Install OpenCV in Linx](http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html) or the following steps. It will take about 20 minutes to finish.
+* You need to install `OpenCV` and other packages based. You can follow this link [Install OpenCV in Linx](http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html). Also, you can download [opencv.sh](http://7xktmz.com1.z0.glb.clouddn.com/opencv.sh) to install it easily, or follow these steps.
 ```bash
 $ mkdir monitor && cd monitor
 $ sudo apt-get install build-essential
@@ -66,6 +66,10 @@ Usage:
 * 2016-10-06: Add license.
 * 2016-10-07: Build repository.
 * 2016-10-08: Add Linux version.
+* 2016-10-13: Add authorisation.
 
 # License
 All codes in this repository are licensed under the terms you may find in the file named "LICENSE" in this directory.
+
+# 授权声明
+我已授权[实验楼](https://www.shiyanlou.com/)使用此仓库中的代码并发表此项目教程，你可以在这里查看对应的[教程](https://www.shiyanlou.com/courses/671)。
