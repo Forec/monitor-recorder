@@ -11,7 +11,7 @@
  * Add all files under `<OPENCV_PATH>\build\x64\vc12\lib` to your link inputs. That could be found in `LINK` -> `INPUT`. You can also separate the files into two parts by whether having suffix `d`, and add those files with suffix `d` into your `DEBUG` mode, add others into `RELEASE` mode.
 
 ### Linux
-* You need to install `OpenCV` and other packages based. You can follow this link [Install OpenCV in Linx](http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html). Also, you can download [opencv.sh](http://7xktmz.com1.z0.glb.clouddn.com/opencv.sh) to install it easily, or follow these steps.
+* You need to install `OpenCV` and other packages based. You can follow this link [Install OpenCV in Linux](http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html). Also, you can download [opencv.sh](http://7xktmz.com1.z0.glb.clouddn.com/opencv.sh) to install it easily, or follow these steps ( notice that Ubuntu 14.04 may need to append `-D BUILD_TIFF=ON` when running cmake ).
 ```bash
 $ mkdir monitor && cd monitor
 $ sudo apt-get install build-essential
